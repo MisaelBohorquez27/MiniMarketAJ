@@ -7,6 +7,7 @@ public class DVMarket {
     private String nombre;
     private ArrayList<Producto> productos;
     private ArrayList<Compra> compras;
+    public static Producto p;
 
     public DVMarket(String nombre) {
         this.nombre = nombre;
